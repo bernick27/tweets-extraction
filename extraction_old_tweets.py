@@ -9,7 +9,7 @@ search_url = "https://api.twitter.com/2/tweets/search/all"
 
 # Optional params: start_time,end_time,since_id,until_id,max_results,next_token,
 # expansions,tweet.fields,media.fields,poll.fields,place.fields,user.fields
-query_params = {'query': 'proceso vacunacion covid','tweet.fields': 'author_id', "max_results": 500,
+query_params = {'query': '(your own term or phrase)','tweet.fields': 'author_id', "max_results": 500,
                 "start_time": '2020-12-25T00:00:00.52Z', "end_time": '2020-12-26T00:00:00.52Z'}
 
 
