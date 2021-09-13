@@ -1,4 +1,4 @@
-# Librerias
+# Libraries
 from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
@@ -6,11 +6,11 @@ from tweepy import API
 from tweepy import Cursor
  
 # Identification
-consumer_key='pa4Xkf0iGP9y6mVz0Wk9WeNdP'
-consumer_secret='hgftUzycEPmrsTHlL0PrOrzlvxXRQKBC28zolXPec7hiQ8W2x0'
+consumer_key= '(your own consumer key)'
+consumer_secret='(your own consumer secret)'
 # Tokens
-access_token='1340423266444468225-bqGSaDyn0FuRyQP2jr6UvDwVylyRze'
-access_token_secret='dILVlIS6qisxozsBdslUQPtVVpSQnqKx727WHC2QVYgJu'
+access_token='(your own access token)'
+access_token_secret='(your own access token secret)'
 
 # # # # TWITTER STREAMER # # # #
 class TwitterStreamer():
@@ -58,7 +58,7 @@ class StdOutListener(StreamListener):
 if __name__ == '__main__':
  
     # Authenticate using config.py and connect to Twitter Streaming API.
-    hash_tag_list = ['proceso vacunacion covid', 'proceso inmunizacion covid', 'proceso vacunacion coronavirus', 'proceso inmunizacion coronavirus']
+    hash_tag_list = ['term1', 'term2']
     fetched_tweets_filename = "tweets.txt"
 
     twitter_streamer = TwitterStreamer()
